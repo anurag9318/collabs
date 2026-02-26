@@ -1,1 +1,10 @@
 console.log("testing......");
+{item?.map((item,index)=>{
+   <tr>
+    <td>{item?._id}</td>
+    <td>{item?.name}</td>
+    <td>{item?.class}</td>
+    <td>{item?.email}</td>
+    <td>{item?.password}</td>
+   </tr>
+})}
